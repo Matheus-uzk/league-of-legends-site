@@ -1,10 +1,15 @@
-let xpHeroi = 13.500
-let nomeHeroi = "Bangalore"
-let eloHeroi = ""
+const numeros = [2, 4, 6, 8, 10];
 
-if (xpHeroi >= 10.001){
-eloHeroi = "Radiante,"
+let soma = 0;
+
+for (let i = 0; i < numeros.length; i++) {
+
+  if (numeros[i] % 2 === 0) {
+
+    soma += numeros[i];
+
+  }
 
 }
 
-console.log ("O Herói de nome " + nomeHeroi + " está no nível de: " + eloHeroi + " com " + xpHeroi + " de XP")
+console.log(soma);
